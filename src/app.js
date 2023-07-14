@@ -36,11 +36,11 @@ app.get('/api/v1/products/:id',(res,req)=>{
 
 
 
-            "id": 1,
+            "id": product.id,
 
 
 
-            "name": "Nirma",
+            "name": product.name,
 
 
 
