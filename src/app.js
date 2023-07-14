@@ -28,35 +28,9 @@ app.get('/api/v1/products/:id',(res,req)=>{
 
 
 
-    "data": {
-
-
-
-        "product": {
-
-
-
-            "id": product.id,
-
-
-
-            "name": product.name,
-
-
-
-            "price": product.id,
-
-
-
-            "quantity": product.quantity
-
-
-
-          }
-
-
-
-     }
+  "data":{
+    product,
+  }
 
 
 
